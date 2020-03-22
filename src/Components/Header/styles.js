@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Header = styled.div`
+@import url('https://css.gg/shape-circle.css');
+
 .bg-light {
     background-color: transparent !important;
 }

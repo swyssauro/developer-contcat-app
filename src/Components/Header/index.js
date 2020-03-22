@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './styles';
 import { Container, Navbar, Nav, Badge, Form } from 'react-bootstrap';
-import { i18n } from '../Translate/i18n'
+import { Icon } from 'semantic-ui-react';
 
 const badg = <Badge variant="secondary">New</Badge>
 const I18N_STORAGE_KEY = 'i18nextLng'
@@ -28,7 +28,8 @@ export default function header() {
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <Form.Label className="linguas"> {i18n.t('button.app')}</Form.Label>
+              
+              <Form.Label className="linguas"> <Icon name='language' size="big" /> </Form.Label>
               <Form.Control as="select" onChange={handleSelectChange}>
                 <option></option>
                 <option value="pt-BR">PT-BR</option>

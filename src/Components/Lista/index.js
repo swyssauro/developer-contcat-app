@@ -1,6 +1,6 @@
 import React from 'react';
 import { Listing, Tittles, Descript } from './styles';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 import { i18n } from '../Translate/i18n'
 
@@ -11,7 +11,7 @@ export default function Lista() {
         <Tittles>{i18n.t('messages.app')}</Tittles>
         <Descript>{i18n.t('messages.sub')}</Descript>
         <Row>
-          <Col sm="6"> <Tittles>Olá</Tittles> </Col>
+          <h1>Olá</h1>
         </Row>
       </Container>
     </Listing>

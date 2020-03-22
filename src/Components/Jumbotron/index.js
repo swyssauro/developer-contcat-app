@@ -16,7 +16,7 @@ export default function header() {
               </Container>
             </Jumbotron>
           </Col>
-          <Col xs lg="5"> <img className="pale-icons" src="https://i.ibb.co/1s5p7rF/pale-logged-out.png" alt="reactimg" /> </Col>
+          <Col xs lg="5"> <img className="pale-icons" src="https://assets-ouch.icons8.com/preview/901/89886320-2e01-466b-8d36-f435391ec3e5.png" alt="reactimg" /> </Col>
         </Row>
       </Container>
     </Breadcub>

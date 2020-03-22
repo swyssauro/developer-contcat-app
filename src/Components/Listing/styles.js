@@ -7,5 +7,5 @@ export const List = styled.div`
 `;
 
 export const Svg = styled.img`
-width: inherit;
+width: -webkit-fill-available;;
 `;
