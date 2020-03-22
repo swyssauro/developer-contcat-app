@@ -13,4 +13,4 @@ mongoose.connect(process.env.MONGO_DB, { useNewUrlParser: true, useCreateIndex: 
     app.use(express.json());
     app.use(cors ());
     app.use('/cats', castRouter);
-    app.listen(4000, () => console.log('express is running...'));
+    app.listen(8000, () => console.log('express is running...'));
