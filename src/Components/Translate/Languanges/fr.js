@@ -9,9 +9,7 @@ const messages = {
                 app: 'Langue',
                 sub: 'C est un jumbotron modifié qui occupe tout l espace horizontal de votre père.'
             },
-            button: {
-                app: 'Les langues'
-            },
+  
             cats: {
                 app: `Conseils d'entretien`,
                 sub: `Savez-vous tout sur votre chaton? Vérifiez ici tous les soins dont il a besoin!`
